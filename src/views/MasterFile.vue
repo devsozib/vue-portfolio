@@ -19,7 +19,7 @@
 
 
     <!-- version-change-area start -->
-    <!-- <div class="version-change-area">
+    <div class="version-change-area">
         <button type="button" class="v-open-btn">Light Demo</button>
         <div class="version-list-wrapper" id="demoBar" data-simplebar>
             <div class="single-item">
@@ -37,11 +37,11 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- version-change-area end -->
 
     <!-- version-change-area start -->
-    <!-- <div class="version-change-area-two">
+    <div class="version-change-area-two">
         <button type="button" class="v-open-btn-two">Dark Demo</button>
         <div class="version-list-wrapper" id="demoBar" data-simplebar>
             <div class="single-item">
@@ -59,13 +59,14 @@
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
     <!-- version-change-area end -->
 
 
         <div class="fixed-item fixed-item-two">
-           
-
+            
+           <router-view></router-view>
+         <ContactSection/>
          <Footer/>
             
         </div>
@@ -76,8 +77,9 @@
 
 import Header from '../components/frontend/Header.vue';
 import Footer from '../components/frontend/Footer.vue';
+import ContactSection from '../components/frontend/ContactSection.vue';
 export default {
   name: 'MasterFile',
-  components:{Header, Footer}
+  components:{Header, Footer, ContactSection}
 }
 </script>

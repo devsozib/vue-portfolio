@@ -7,7 +7,8 @@
                         <div class="col-lg-7 text-center mrb-30">
                             <div class="footer-widget widget-menu">
                                 <div class="footer-logo">
-                                    <a href="#"><a href="#"><img src="frontend/assets/images/logo.png" alt="logo"></a></a>
+                            <router-link class="site-logo site-title" :to="{name:'home'}">PORTFOLIO</router-link>
+                                    
                                 </div>
                                 <p>Suspendisse Lectus Vivamus Donec Turpis Egestas, Sed At Massa Orci, Et Nibh Massa Augue Fermentum Arcu, Potenti Tellus Praesent Integer Aliquam.</p>
                                 <ul class="footer-social">
@@ -25,7 +26,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <p>Copyright © 2020. All rights reserved</p>
+                            <p>Copyright © 2022. All rights reserved</p>
                         </div>
                     </div>
                 </div>
